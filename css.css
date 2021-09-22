@@ -1,0 +1,101 @@
+ @font-face {
+     font-family: myFirstFont;
+     src: url(sansation_light.woff);
+ }
+ 
+ body {
+     background-image: url(./istockphoto-1299730469-170667a.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     opacity: 90;
+ }
+ 
+ .container {
+     font-family: myFirstFont;
+     margin: auto;
+     padding: auto;
+ }
+ 
+ #navbarNav {
+     padding-left: 40%;
+ }
+ 
+ .navbar-nav>li {
+     padding-right: 40px;
+ }
+ 
+ a:hover {
+     color: #fff;
+     &:before {
+         transform: scaleY(1);
+         opacity: 1;
+     }
+     &:after {
+         transform: scaleY(1);
+         opacity: 1;
+     }
+ }
+ 
+ .page-header {
+     font-family: myFirstFont;
+     font-variant: normal;
+     font-style: italic;
+     background-color: rgb(27, 27, 27);
+     color: white;
+     text-align: center;
+ }
+ 
+ .jumbotron {
+     background: rgb(0, 0, 0);
+     /* Fallback color */
+     background: rgba(0, 0, 0, 0.5);
+     /* Black background with 0.5 opacity */
+     color: #f1f1f1;
+     /* Grey text */
+     padding: 20px;
+     /* Some padding */
+ }
+ 
+ .jumbotron.background {
+     background: url(klematis.jpg) repeat;
+     border: 2px solid black;
+ }
+ 
+ .jumbotron.transbox {
+     margin: 30px;
+     background-color: #ffffff;
+     border: 1px solid black;
+     opacity: 5;
+ }
+ 
+ .jumbotron.transbox p {
+     margin: 5%;
+     font-weight: bold;
+     color: #000000;
+ }
+ 
+ #cont1 {
+     color: white;
+     font-size: 100%;
+     font-style: normal;
+ }
+ 
+ div.row {
+     background: url(klematis.jpg) repeat;
+     border: 1px solid black;
+     opacity: 1;
+ }
+ 
+ #cont1.col-8 {
+     margin: 30px;
+     background-color: #ffffff;
+     border: 1px solid black;
+     opacity: 5;
+ }
+ 
+ #cont1.col-8 p {
+     margin: 5%;
+     font-weight: bold;
+     color: #000000;
+ }
