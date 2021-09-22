@@ -9,6 +9,7 @@
      background-attachment: fixed;
      background-size: cover;
      opacity: 90;
+     padding-top: 65px;
  }
  
  .container {
@@ -17,33 +18,16 @@
      padding: auto;
  }
  
+ nav {
+     font-family: myFirstFont;
+ }
+ 
  #navbarNav {
      padding-left: 40%;
  }
  
  .navbar-nav>li {
      padding-right: 40px;
- }
- 
- a:hover {
-     color: #fff;
-     &:before {
-         transform: scaleY(1);
-         opacity: 1;
-     }
-     &:after {
-         transform: scaleY(1);
-         opacity: 1;
-     }
- }
- 
- .page-header {
-     font-family: myFirstFont;
-     font-variant: normal;
-     font-style: italic;
-     background-color: rgb(27, 27, 27);
-     color: white;
-     text-align: center;
  }
  
  .jumbotron {
@@ -85,6 +69,18 @@
      background: url(klematis.jpg) repeat;
      border: 1px solid black;
      opacity: 1;
+ }
+ 
+ #cont1 {
+     font-size: 30px;
+     background: rgb(0, 0, 0);
+     /* Fallback color */
+     background: rgba(0, 0, 0, 0.5);
+     /* Black background with 0.5 opacity */
+     color: #f1f1f1;
+     /* Grey text */
+     padding: 20px;
+     /* Some padding */
  }
  
  #cont1.col-8 {
