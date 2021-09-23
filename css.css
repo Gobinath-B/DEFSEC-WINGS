@@ -22,12 +22,21 @@
      font-family: myFirstFont;
  }
  
+ #nav-bar a:hover {
+     color: white;
+ }
+ 
  #navbarNav {
      padding-left: 40%;
  }
  
  .navbar-nav>li {
      padding-right: 40px;
+ }
+ 
+ .container {
+     padding: 3px;
+     padding-bottom: 20px;
  }
  
  .jumbotron {
@@ -37,8 +46,10 @@
      /* Black background with 0.5 opacity */
      color: #f1f1f1;
      /* Grey text */
-     padding: 20px;
+     padding: 40px;
      /* Some padding */
+     font-family: myFirstFont;
+     font-size: 20px;
  }
  
  .jumbotron.background {
@@ -90,8 +101,38 @@
      opacity: 5;
  }
  
- #cont1.col-8 p {
+ #cont1.col-8 h2 {
      margin: 5%;
      font-weight: bold;
-     color: #000000;
+     color: white;
+     font-size: 40px;
+ }
+ 
+ #content.col-8 p {
+     margin: 5%;
+     font-weight: lighter;
+     color: white;
+     font-size: 30px;
+ }
+ 
+ footer {
+     padding: 30px 30px;
+     color: white;
+     font-family: myFirstFont;
+     font-size: 15px;
+     background-color: #000000;
+ }
+ 
+ #footbox.row {
+     border-radius: 0px;
+     border-color: transparent;
+ }
+ 
+ #table .list-unstyled {
+     border-radius: 0px;
+     border-color: transparent;
+ }
+ 
+ footer h5 {
+     font-size: 25px;
  }
