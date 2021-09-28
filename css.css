@@ -14,7 +14,13 @@ body {
 
 @media screen and (max-width:600px) {
     #content {
+        font-size: 18px;
+    }
+    footer #footbox h5 {
         font-size: 20px;
+    }
+    footer #footbox p {
+        font-size: 15px;
     }
 }
 
@@ -152,4 +158,8 @@ footer {
 
 footer h5 {
     font-size: 25px;
+}
+
+footer p {
+    font-size: 20px;
 }
