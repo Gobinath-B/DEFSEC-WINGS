@@ -1,142 +1,155 @@
- @font-face {
-     font-family: myFirstFont;
-     src: url(sansation_light.woff);
- }
- 
- body {
-     background-image: url(images/istockphoto-1299730469-170667a.jpg);
-     background-position: 20%;
-     background-repeat: no-repeat;
-     background-size: cover;
-     opacity: 95;
-     padding-top: 65px;
- }
- 
- .container {
-     font-family: myFirstFont;
-     margin: auto;
-     padding: auto;
- }
- 
- nav {
-     font-family: myFirstFont;
- }
- 
- #nav-bar a:hover {
-     color: white;
- }
- 
- #navbarNav {
-     padding-left: 40%;
- }
- 
- .navbar-nav>li {
-     padding-right: 40px;
- }
- 
- .container {
-     padding: 3px;
-     padding-bottom: 20px;
- }
- 
- .jumbotron {
-     background: rgb(0, 0, 0);
-     /* Fallback color */
-     background: rgba(0, 0, 0, 0.5);
-     /* Black background with 0.5 opacity */
-     color: #f1f1f1;
-     /* Grey text */
-     padding: 40px;
-     /* Some padding */
-     font-family: myFirstFont;
-     font-size: 20px;
- }
- 
- .jumbotron.background {
-     background: url(klematis.jpg) repeat;
-     border: 2px solid black;
- }
- 
- .jumbotron.transbox {
-     margin: 30px;
-     background-color: #ffffff;
-     border: 1px solid black;
-     opacity: 5;
- }
- 
- .jumbotron.transbox p {
-     margin: 5%;
-     font-weight: bold;
-     color: #000000;
- }
- 
- #cont1 {
-     color: white;
-     font-size: 100%;
-     font-style: normal;
- }
- 
- div.row {
-     background: url(klematis.jpg) repeat;
-     border: 1px solid black;
-     opacity: 1;
- }
- 
- #cont1 {
-     font-size: 30px;
-     background: rgb(0, 0, 0);
-     /* Fallback color */
-     background: rgba(0, 0, 0, 0.5);
-     /* Black background with 0.5 opacity */
-     color: #f1f1f1;
-     /* Grey text */
-     padding: 20px;
-     /* Some padding */
- }
- 
- #cont1.col-8 {
-     margin: 30px;
-     background-color: #ffffff;
-     border: 1px solid black;
-     opacity: 5;
- }
- 
- #cont1.col-8 h2 {
-     margin: 5%;
-     font-weight: bold;
-     color: white;
-     font-size: 40px;
- }
- 
- #content.col-8 p {
-     margin: 5%;
-     font-weight: lighter;
-     color: white;
-     font-size: 30px;
- }
- 
- img {
-     overflow: hidden;
- }
- 
- footer {
-     padding: 30px 30px;
-     color: white;
-     font-family: myFirstFont;
-     font-size: 15px;
-     background-color: #000000;
- }
- 
- #footbox.row {
-     border-radius: 0px;
-     border-color: transparent;
- }
- 
- #table .list-unstyled {
-     border-radius: 0px;
-     border-color: transparent;
- }
- 
- footer h5 {
-     font-size: 25px;
- }
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+body {
+    background-image: url(images/istockphoto-1299730469-170667a.jpg);
+    background-position: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10;
+    padding-top: 65px;
+}
+
+@media screen and (max-width:600px) {
+    #content {
+        font-size: 20px;
+    }
+}
+
+.container {
+    font-family: myFirstFont;
+    margin: auto;
+    padding: auto;
+}
+
+nav {
+    font-family: myFirstFont;
+}
+
+#nav-bar a:hover {
+    color: white;
+}
+
+#navbarNav {
+    padding-left: 40%;
+}
+
+.navbar-nav>li {
+    padding-right: 40px;
+}
+
+.container {
+    padding: 3px;
+    padding-bottom: 20px;
+}
+
+.jumbotron {
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    padding: 40px;
+    /* Some padding */
+    font-family: myFirstFont;
+    font-size: 20px;
+}
+
+.jumbotron.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+}
+
+.jumbotron.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 5.5;
+}
+
+.jumbotron.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+#cont1 {
+    color: white;
+    font-size: 100%;
+    font-style: normal;
+}
+
+div.row {
+    background: url(klematis.jpg) repeat;
+    border: 1px solid black;
+    opacity: 1;
+}
+
+#cont1 {
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    padding: 20px;
+    /* Some padding */
+}
+
+#cont1.col-8 {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 5;
+}
+
+#cont1.col-8 h2 {
+    margin: 5%;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+#content.col-8 p {
+    margin: 5%;
+    font-weight: lighter;
+    color: white;
+    font-size: 30px;
+}
+
+#content2.col-4.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    overflow: hidden;
+}
+
+footer {
+    padding: 30px 30px;
+    color: white;
+    font-family: myFirstFont;
+    font-size: 15px;
+    background-color: #000000;
+}
+
+#footbox.row {
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+#table .list-unstyled {
+    border-radius: 0px;
+    border-color: transparent;
+}
+
+footer h5 {
+    font-size: 25px;
+}
