@@ -139,11 +139,11 @@ img {
 }
 
 footer {
-    padding: 30px 30px;
     color: white;
     font-family: myFirstFont;
     font-size: 15px;
     background-color: #000000;
+    width: 100%;
 }
 
 #footbox.row {
@@ -161,5 +161,33 @@ footer h5 {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 18px;
+}
+
+
+/*contact page starts*/
+
+form {
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    padding: 35px;
+    /* Some padding */
+}
+
+#contact1.card {
+    font-size: 25px;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    padding: 35px;
+    /* Some padding */
+    margin-top: 5px;
 }
