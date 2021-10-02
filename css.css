@@ -19,6 +19,9 @@ body {
     footer #footbox h5 {
         font-size: 20px;
     }
+    footer #footbox h4 {
+        font-size: 19px;
+    }
     footer #footbox p {
         font-size: 15px;
     }
@@ -54,7 +57,7 @@ nav {
 .jumbotron {
     background: rgb(0, 0, 0);
     /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
     /* Grey text */
@@ -94,7 +97,9 @@ div.row {
     opacity: 1;
 }
 
-#cont1 {
+#cont1,
+#cont2,
+#cont3 {
     font-size: 25px;
     background: rgb(0, 0, 0);
     /* Fallback color */
@@ -120,7 +125,9 @@ div.row {
     font-size: 40px;
 }
 
-#content.col-8 p {
+#conts1.col-8 p,
+#conts2.col-8 p,
+#conts3.col-8 p {
     margin: 5%;
     font-weight: lighter;
     color: white;
